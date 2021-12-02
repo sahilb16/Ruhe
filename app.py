@@ -15,8 +15,8 @@ def student():
         mail = request.form.get("mail")
         pswd = request.form.get("pswd") 
         print("password",pswd)
-        print("mail:", mail)
-    
+        print("mail:", mail)  
+
     return render_template('student.html')
 
 
